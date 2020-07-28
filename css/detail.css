@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* 头部 */
+header{
+	padding: 4.13vw 3.87vw;
+	display: flex;
+	justify-content: space-between;
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+/* 轮播 */
+.swiper-container img{
+	width: 100vw;
+}
+
+/* 第一部分 */
+.content01{
+	padding: 2.93vw 3.33vw 4.8vw;
+}
+.content01 .top{
+	font-size: 3.47vw;
+	color: #000000;
+	margin-bottom: 3.73vw;
+}
+.content01 .mid{
+	margin-bottom: 1vw;
+	display: flex;
+	justify-content: space-between;
+}
+.content01 .mid img{
+	width: 2.4vw;
+}
+.content01 .mid>div:first-child span:nth-child(2){
+	color: #FF2732;
+	font-size: 2.67vw;
+}
+.content01 .mid>div:first-child span:last-child{
+	font-size: 3.2vw;
+	color: #FF2732;
+}
+.content01 .mid>div:last-child span:first-child{
+	padding: 0.53vw 2.8vw;
+	background-color: #FF2732;
+	font-size: 2.67vw;
+	color: #FFFFFF;
+	border-radius: 3vw;
+}
+.content01 .mid>div:last-child span:nth-child(2){
+	font-size: 2.93vw;
+	color: #FF2732;
+}
+.content01 .mid>div:last-child span:nth-child(3){
+	font-size: 4.27vw;
+	color: #FF2732;
+}
+
+.content01 .btm img{
+	width: 2.67vw;
+}
+.content01 .btm span:nth-child(2){
+	font-size: 2.67vw;
+	color: #FF2732;
+}
+.content01 .btm span:nth-child(3){
+	font-size: 3.2vw;
+	color: #FF2732;
+}
+.content01 .btm span:nth-child(4){
+	margin-left: 3.2vw;
+	font-size: 2.67vw;
+	color: #6E6E6E;
+}
+
+/* 第二部分 */
+.content02{
+	width: 100vw;
+	padding: 5.47vw 3.2vw;
+	box-sizing: border-box;
+	border-top: 2vw solid #f8f8f8;
+	border-bottom: 2vw solid #F8F8F8;
+}
+.content02 ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.content02 ul li{
+	font-size: 3.47vw;
+	width: 39vw;
+	color: #8d8d8d;
+}
+.content02 ul li:first-child,
+.content02 ul li:nth-child(2){
+	margin-bottom: 3.73vw;
+}
+.content02 ul li span{
+	color: #FF2732;
+}
+
+/* 第二部分 */
+.content03{
+	padding: 4.8vw 4.27vw 3.87vw 3.2vw;
+	border-bottom: 2vw solid #F8F8F8;
+}
+.content03 .top{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.87vw;
+	border-bottom: 1px solid #F8F8F8;
+}
+.content03 .top div:first-child{
+	font-size: 3.73vw;
+	color: #000000;
+}
+.content03 .top div:last-child{
+	font-size: 3.47vw;
+	color: #8D8D8D;
+}
+.content03 .top div:last-child span:nth-child(2){
+	color: #FF2732;
+}
+
+.content03 .btm{
+	padding-top: 3.47vw;
+}
+.content03 .btm div:first-child{
+	display: flex;
+	align-items: center;
+}
+.content03 .btm div:first-child img{
+	width: 7.6vw;
+	margin-right: 1.87vw;
+}
+.content03 .btm div:first-child span{
+	font-size: 3.47vw;
+	color: #000000;
+}
+.content03 .btm div:nth-child(2){
+	margin-top: 2.13vw;
+	margin-bottom: 3.2vw;
+}
+.content03 .btm div:nth-child(3){
+	font-size: 3.47vw;
+	color: #000000;
+	margin-bottom: 2.8vw;
+}
+.content03 .btm div:last-child img{
+	width: 62.53vw;
+}
+
+/* 第四部分 */
+.content04{
+	font-size: 0;
+	border-bottom: 2vw solid #F8F8F8;
+}
+.content04 .text{
+	font-size: 3.47vw;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content04 .text img{
+	width: 3.47vw;
+}
+.content04 .text span{
+	margin: 4.27vw 2.13vw ;
+}
+.content04 .pic img{
+	width: 100vw;
+}
+
+/* 第五部分 */
+.content05 .top{
+	margin: 6vw 0;
+	font-size: 3.47vw;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+}
+.content05 .btm{
+	padding: 0 3.33vw;
+}
+.content05 .btm li{
+	display: flex;
+	margin-bottom: 4.93vw;
+}
+.content05 .left img{
+	width: 26.8vw;
+	margin-right: 3.47vw;
+}
+.content05 .right img{
+	width: 2.67vw;
+}
+.content05 .right{
+	border-bottom: 1px solid #e2e2e2;
+}
+.content05 .right div:first-child{
+	color: #000000;
+	font-size: 3.47vw;
+	line-height: 5vw;
+}
+.content05 .right div:nth-child(2){
+	margin-top: 3.2vw;
+	margin-bottom: 2.53vw;
+}
+.content05 .right div:nth-child(2) span:nth-child(2){
+	font-size: 2.67vw;
+	color: #FF2732;
+}
+.content05 .right div:nth-child(2) span:nth-child(3){
+	font-size: 3.2vw;
+	color: #FF2732;
+}
+.content05 .right div:nth-child(2) span:nth-child(4){
+	font-size: 2.67vw;
+	background-color: #FF2732;
+	color: #fff;
+	padding: 0.67vw 2.8vw;
+	border-radius: 3vw;
+	margin-left: 3vw;
+	margin-right: 2.07vw;
+}
+.content05 .right div:nth-child(2) span:nth-child(5){
+	font-size: 2.4vw;
+	color: #000;
+}
+.content05 .right div:nth-child(2) span:nth-child(6){
+	font-size: 3.73vw;
+	color: #000;
+}
+
+.content05 .right div:nth-child(3) span:nth-child(2){
+	font-size: 2.67vw;
+	color: #FF2732;
+}
+.content05 .right div:nth-child(3) span:nth-child(3){
+	font-size: 3.2vw;
+	color: #FF2732;
+	margin-right: 3.2vw;
+}
+.content05 .right div:nth-child(3) span:nth-child(4){
+	font-size: 2.67vw;
+	color: #6E6E6E;
+}
+
+/* 尾部 */
+.footer ul{
+	position: fixed;
+	background-color: #FFFFFF;
+	bottom: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+}
+.footer ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3vw 5vw;
+	font-size: 3.47vw;
+	border-right: 1px solid #e2e2e2;
+}
+.footer ul li:nth-child(4),
+.footer ul li:nth-child(5){
+	border-right: none;
+}
+.footer ul li:first-child img{
+	width: 5.07vw;
+}
+.footer ul li:nth-child(2) img{
+	width: 5.67vw;
+}
+.footer ul li:nth-child(3) img{
+	width: 4.27vw;
+}
+.footer ul li:nth-child(5){
+	background-color: #FF2732;
+	color: #FFFFFF;
+}
+
+/* 弹出框 */
+.alert {
+	padding: 4.53vw 3.33vw;
+	background-color: #FFFFFF;
+	z-index: 10;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+.alert .price ul{
+	display: flex;
+	margin-bottom: 6.53vw;
+}
+.alert .price li{
+	height: 25.6vw;
+}
+.alert .price li:first-child img{
+	width: 23.07vw;
+	margin-right: 3.2vw;
+}
+.alert .price li:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.alert .price li:nth-child(2) div:first-child{
+	font-size: 3.73vw;
+	color: #FF2732;
+	margin-bottom: 1vw;
+}
+.alert .price li:nth-child(2) div:last-child{
+	font-size: 2.93vw;
+	color: #262626;
+}
+.alert .price li:nth-child(3){
+	width: 44vw;
+	text-align: right;
+}
+.alert .price li:nth-child(3) img{
+	width: 3.6vw;
+	
+}
+
+.alert .size {
+	margin-bottom: 4.27vw;
+}
+.alert .size span{
+	font-size: 3.47vw;
+	color: #262626;
+}
+.alert .size div{
+	width: 46.8vw;
+	text-align: center;
+	color: #262626;
+	padding: 1.87vw 2.93vw;
+	border: 1px solid #7d7d7d;
+	font-size: 3.2vw;
+	margin-top: 2.93vw;
+}
+.alert .size div.red{
+	color: #FF2732;
+	border: 1px solid #FF2732;
+}
+
+.alert .number>span{
+	font-size: 3.47vw;
+	color: #262626;
+}
+.alert .number div{
+	margin-top: 2.53vw;
+}
+.alert .number div span{
+	width: 10.93vw;
+	padding: 1.6vw 4.8vw;
+	border: 1px solid #898989;
+}
+.alert .number div span:first-child{
+	border-right: none;
+}
+.alert .number div span:nth-child(2){
+	border-right: none;
+}
+
+.alert .confirm{
+	width: 93.07vw;
+	text-align: center;
+	margin-top: 15vw;
+	background-color: #FF2732;
+	color: #FFFFFF;
+	font-size: 3.73vw;
+	padding: 2.4vw 0;
+}

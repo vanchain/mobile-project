@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>产品列表</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/productList.css" />
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// 颜色变化
+				$(".item").click(function() {
+					$(this).siblings().removeClass("red");
+					$(this).addClass("red");
+				})
+				
+				// 回到顶部
+				$(document).scroll(function(){
+					var top = $(document).scrollTop();
+					if(top>5){
+						$(".back").css("display","block");
+					}else{
+						$(".back").css("display","none");
+					}
+				})
+				$(".back").click(function(){
+					$("html,body").animate({
+						scrollTop:0
+					},200);
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<div>
+				<img src="img/back.png">
+				<img src="img/Line.png">
+				<span>家纺床品</span>
+			</div>
+			<img src="img/Path.png">
+		</header>
+
+		<!-- 内容一 -->
+		<div class="content01">
+			<ul class="menu">
+				<li class="item red">床品件套</li>
+				<li class="item">被枕垫褥</li>
+				<li class="item">布艺软装</li>
+				<li class="item">毛巾浴</li>
+			</ul>
+			<div class="pic">
+				<img src="img/productList/line.png">
+				<img src="img/productList/arrow.png">
+			</div>
+		</div>
+
+		<!-- 内容二 -->
+		<div class="content02">
+			<ul class="menu">
+				<li class="item red">综合</li>
+				<li class="item">销量</li>
+				<li class="item">新品</li>
+				<li class="item">价格</li>
+			</ul>
+			<div class="pic">
+				<img src="img/productList/rect_red.png">
+				<img src="img/productList/rect_gray.png">
+			</div>
+		</div>
+
+		<!-- 内容三 -->
+		<div class="content03">
+			<ul class="btm">
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="img/productList/con9.png">
+					</div>
+					<div class="right">
+						<div>高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L...</div>
+						<div>
+							<img src="img/productList/icon1.png">
+							<span>积分抵扣：</span>
+							<span>27.9</span>
+							<span>到手价</span>
+							<span>￥</span>
+							<span>61.9</span>
+						</div>
+						<div>
+							<img src="img/productList/icon2.png">
+							<span>赚￥</span>
+							<span>13.19</span>
+							<span>佣金比例：15.00%</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 返回顶部 -->
+		<div class="back"><img src="img/productList/back.png" ></div>
+	</body>
+</html>

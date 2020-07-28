@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* 头部 */
+header{
+	padding: 4.13vw 6.8vw 2.8vw 5.07vw;
+	display: flex;
+	justify-content: space-between;
+}
+header>div{
+	display: flex;
+	align-items: center;
+}
+header>div img:first-child{
+	width: 2.4vw;
+	margin-right: 3.6vw;
+}
+header>div img:nth-child(2){
+	width: 0.4vw;
+	margin-right: 3.73vw;
+}
+header>div span{
+	font-size: 4.53vw;
+	color: #101010;
+}
+header>img{
+	width: 0.93vw;
+}
+
+/* 搜索 */
+.search{
+	width: 91.53vw;
+	padding: 2.53vw 4vw;
+	box-sizing: border-box;
+	border-radius: 2vw;
+	text-align: center;
+	font-size: 3.47vw;
+	border: none;
+	margin-bottom: 1.87vw;
+	margin-left: 3.2vw;
+	background: url(../img/list/search.png) no-repeat 35vw center;
+	background-color: #f4f8f7;
+	background-size: 4vw;
+}
+
+
+/* 内容部分 */
+.content{
+	/* width: 100vw; */
+	display: flex;
+	border-top: 1px solid #F8F8F8;
+}
+
+.content .left{
+	padding-top: 1.4vw;
+}
+
+.content .left li{
+	padding: 0 2.8vw;
+	margin: 3.135vw 0;
+	border-left: 0.53vw solid #FFFFFF;
+	font-size: 3.47vw;
+	color: #101010;
+}
+.content .left li.red{
+	color: #FF2732;
+	border-left: 0.53vw solid #FF2732;
+}
+
+.content .right{
+	width: 68vw;
+	padding: 3.73vw 4vw;
+	border-left: 1px solid #F8F8F8;
+}
+.content .right>div.hide{
+	display: none;
+}
+.content .floor1 img,
+.content .floor5 img{
+	width: 71.2vw;
+}
+
+.content .floor2{
+	padding-top: 3vw;
+}
+.content .floor2>span{
+	display: inline-block;
+	padding-bottom: 1.47vw;
+	font-size: 3.47vw;
+	color: #101010;
+	font-weight: bold;
+}
+.content .floor2>ul{
+	padding-top: 4.4vw;
+	border-top: 1px solid #F8F8F8;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content .floor2>ul li{
+	width: 18vw;
+	margin-right: 6vw;
+	margin-bottom: 6vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.content .floor2>ul li:nth-child(3),
+.content .floor2>ul li:nth-child(6){
+	margin-right: 0;
+}
+.content .floor2>ul li img{
+	height: 10vw;
+	margin-bottom: 2vw;
+}
+.content .floor2>ul li span{
+	font-size: 3.47vw;
+	color: #101010;
+}
+
+.floor7{
+	padding-bottom: 5vh;
+}
+
+
+
+
+/* 尾部 */
+.fix{
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	padding: 2.8vw 5.87vw;
+}
+.footer li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* .footer li:last-child{
+	margin-right: 0;
+} */
+.footer li img{
+	height: 5.2vw;
+	margin-bottom: 1vw;
+}
+.footer li span{
+	font-size: 3.47vw;
+	color: #5f5f5f;
+}

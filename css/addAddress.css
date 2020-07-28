@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+input::-webkit-input-placeholder {
+	color: #292929;
+}
+
+.color{
+	height: 100vh;
+	background-color: #F8F8F8;
+}
+
+/* 头部 */
+header {
+	padding: 4.13vw 6.8vw 2.8vw 5.07vw;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+}
+
+header>div {
+	display: flex;
+	align-items: center;
+}
+
+header>div a{
+	display: flex;
+	align-items: center;
+}
+
+header>div a img {
+	width: 2.4vw;
+	margin-right: 3.6vw;
+}
+
+header>div img:nth-child(2) {
+	width: 0.4vw;
+	margin-right: 3.73vw;
+}
+
+header>div span {
+	font-size: 4.53vw;
+	color: #101010;
+}
+
+header>img {
+	width: 0.93vw;
+}
+
+/* 第一部分 */
+.content01 {
+	background-color: #fff;
+	width: 100vw;
+	border-top: 1px solid #F8F8F8;
+	border-bottom: 1px solid #F8F8F8;
+	padding-left: 3vw;
+	box-sizing: border-box;
+}
+
+.content01 input {
+	border: none;
+}
+
+.content01 .username {
+	width: 45vw;
+	border-right: 1px solid #F8F8F8;
+	padding: 4vw 0 3vw 3vw;
+	box-sizing: border-box;
+	font-size: 4vw;
+	color: #292929;
+}
+
+.content01 .tel {
+	width: 47vw;
+	padding: 4vw 0 3vw 3vw;
+	box-sizing: border-box;
+	font-size: 4vw;
+	color: #292929;
+}
+
+/* 第二部分 */
+.content02{
+	font-size: 0;
+	padding-left: 3vw;
+	background-color: #fff;
+}
+.content02 select{
+	width: 32%;
+	font-size: 4vw;
+	border: none;
+	padding: 4vw 2vw;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none; /*去掉下拉箭头*/
+}
+
+
+/* 第三部分 */
+.content03 {
+	border-top: 1px solid #F8F8F8;
+	padding-left: 3vw;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.detailAddress {
+	width: 92vw;
+	border: none;
+	padding: 4vw 0 4vw 2vw;
+	font-size: 4vw;
+	color: #292929;
+}
+
+/* 尾部 */
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	padding: 4vw 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 4vw;
+	background-color: #FF2732;
+}

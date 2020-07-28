@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>添加收货地址</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/addAddress.css"/>
+		<script src="js/PCASClass.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				new PCAS("province3","city3","area3");
+			}
+		</script>
+	</head>
+	<body>
+		<div class="color">
+			<!-- 头部 -->
+			<header>
+				<div>
+					<a href="userCenter.html"><img id="back" src="img/back.png"></a>
+					<img src="img/Line.png">
+					<span>添加收货地址</span>
+				</div>
+				<img src="img/Path.png">
+			</header>
+			
+			<!-- 第一部分 -->
+			<div class="content01">
+				<input class="username" type="text" id="username" placeholder="名字"/>
+				<input class="tel" type="text" id="tel" placeholder="电话">
+			</div>
+				
+			<!-- 第二部分 -->
+			<div class="content02">
+				<select name="province3"></select>
+				<select name="city3"></select>
+				<select name="area3"></select>
+			</div>
+			
+			<!-- 第三部分 -->
+			<div class="content03">
+				<input class="detailAddress" type="text" placeholder="请填写详细街道地址">
+			</div>
+			
+		</div>
+
+		<!-- 尾部 -->
+		<div class="footer">保存</div>
+	</body>
+</html>

@@ -1,0 +1,246 @@
+@charset "utf-8";
+.height{
+	padding-bottom: 10vh;
+	background-color: #F8F8F8;
+}
+/* 头部 */
+header{
+	padding: 4.13vw 6.8vw 2.8vw 5.07vw;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FF2732;
+}
+header>div{
+	display: flex;
+	align-items: center;
+}
+header>div img:first-child{
+	width: 2.4vw;
+	margin-right: 3.6vw;
+}
+header>div img:nth-child(2){
+	width: 0.4vw;
+	margin-right: 3.73vw;
+}
+header>div span{
+	font-size: 4.67vw;
+	color: #fff;
+}
+header>img{
+	width: 0.93vw;
+}
+
+/* 用户栏 */
+.user{
+	padding: 0 3.2vw 4.4vw;
+	box-sizing: border-box;
+	background-color: #FF2732;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.user li:first-child img{
+	width: 3.07vw;
+}
+.user li:first-child span:nth-child(2){
+	font-size: 4.27vw;
+	color: #FFFFFF;
+}
+.user li:first-child div:last-child{
+	margin-top: 1vw;
+	padding: 0.93vw 2.27vw;
+	background-color: #e2c079;
+	color: #FFFFFF;
+	font-size: 3.2vw;
+	border-radius: 1vw;
+}
+
+.user li:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 4vw;
+}
+.user li:nth-child(2) div:first-child{
+	width: 12vw;
+	height: 12vw;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	padding-top: 0.5vw;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user li:nth-child(2) div:first-child img{
+	width: 6.53vw;
+}
+.user li:nth-child(2) div:nth-child(2){
+	font-size: 3.47vw;
+	color: #FFFFFF;
+	margin-top: 1.87vw;
+	margin-bottom: 1vw;
+}
+.user li:nth-child(2) div:nth-child(3){
+	font-size: 2.67vw;
+	color: #FFFFFF;
+}
+
+
+.user li:nth-child(3) img{
+	width: 3.07vw;
+}
+.user li:nth-child(3) span:nth-child(2){
+	font-size: 4.27vw;
+	color: #FFFFFF;
+}
+.user li:nth-child(3) span:nth-child(3){
+	font-size: 3.47vw;
+	color: #FFFFFF;
+}
+.user li:nth-child(3) div:last-child{
+	margin-top: 1vw;
+	padding: 0.93vw 3.07vw;
+	background-color: #e2c079;
+	color: #FFFFFF;
+	font-size: 3.2vw;
+	border-radius: 1vw;
+}
+
+/* 订单 */
+.order{
+	margin: 2.93vw 3.33vw;
+	background-color: #FFFFFF;
+	padding: 3.07vw 2.67vw 4.8vw;
+	box-sizing: border-box;
+	border-radius: 2vw;
+}
+.order .text{
+	display: flex;
+	justify-content: space-between;
+	font-size: 3.73vw;
+	color: #000000;
+}
+.order .menu{
+	display: flex;
+	justify-content: space-between;
+}
+.order .menu li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.order .menu li img{
+	margin-top: 6vw;
+}
+.order .menu li:first-child img{
+	width: 4.67vw;
+	margin-bottom: 2.27vw;
+}
+.order .menu li:nth-child(2) img{
+	width: 4.67vw;
+	margin-bottom: 2vw;
+}
+.order .menu li:nth-child(3) img{
+	width: 5.47vw;
+	margin-bottom: 1.87vw;
+}
+.order .menu li:nth-child(4) img{
+	width: 5.87vw;
+	margin-bottom: 1.73vw;
+}
+.order .menu li:last-child img{
+	width: 6vw;
+	margin-bottom: 1.6vw;
+}
+.order .menu li span{
+	font-size: 3.47vw;
+	color: #060606;
+}
+
+/* 我的服务 */
+.service{
+	margin: 0 3.33vw;
+	padding: 4vw 2.53vw 3.13vw 2.4vw;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+.service .text{
+	padding-left: 1.5vw;
+	font-size: 3.73vw;
+	color: #000000;
+}
+
+.service .top{
+	padding-bottom: 4.93vw;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #F8F8F8;
+}
+.service .top li{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5.2vw;
+}
+.service .top li img{
+	height: 4.27vw;
+	margin-bottom: 1vw;
+}
+.service .top li span{
+	font-size: 3.47vw;
+	color: #000000;
+}
+
+.service .btm{
+	padding-bottom: 6.2vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.service .btm li{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5vw;
+}
+
+.service .btm li img{
+	height: 4.67vw;
+	margin-bottom: 1vw;
+}
+.service .btm li span{
+	font-size: 3.47vw;
+	color: #000000;
+}
+
+/* 尾部 */
+.fix{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	padding: 2.8vw 5.87vw;
+}
+.footer li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer li:last-child{
+	margin-right: 0;
+}
+.footer li img{
+	height: 5.2vw;
+	margin-bottom: 1vw;
+}
+.footer li span{
+	font-size: 3.47vw;
+	color: #5f5f5f;
+}

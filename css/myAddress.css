@@ -1,0 +1,95 @@
+@charset "utf-8";
+.color{
+	height: 100vh;
+	background-color: #F8F8F8;
+}
+/* 头部 */
+header{
+	background-color: #fff;
+	padding: 4.13vw 6.8vw 2.8vw 5.07vw;
+	display: flex;
+	justify-content: space-between;
+}
+header>div{
+	display: flex;
+	align-items: center;
+}
+header>div img:first-child{
+	width: 2.4vw;
+	margin-right: 3.6vw;
+}
+header>div img:nth-child(2){
+	width: 0.4vw;
+	margin-right: 3.73vw;
+}
+header>div span{
+	font-size: 4.67vw;
+	color: #282828;
+}
+header>img{
+	width: 0.93vw;
+}
+
+/* 第一部分 */
+.content01{
+	padding: 3.87vw 1.6vw 0;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 4.27vw solid #F8F8F8;
+	background-color: #fff;
+}
+.content01 .message{
+	font-size: 3.73vw;
+	color: #292929;
+	padding: 0 3.07vw;
+	border-bottom: 1px solid #d1d1cf;
+	display: flex;
+	flex-direction: column;
+}
+.content01 .message span{
+	line-height: 7vw;
+}
+.content01 .message span:last-child{
+	margin-bottom: 1.5vw;
+}
+
+.content01 .select{
+	padding: 2.93vw 3.07vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content01 .select>div:first-child img{
+	width: 2.67vw;
+	margin-right: 1.6vw;
+}
+.content01 .select>div:first-child span{
+	font-size: 3.47vw;
+	color: #000;
+}
+.content01 .select>div{
+	display: flex;
+	align-items: center;
+}
+.content01 .select>div:nth-child(2) span{
+	padding: 1.47vw 7.07vw;
+	font-size: 3.73vw;
+	color: #fff;
+	background-color: #ff2732;
+	border-radius: 1vw;
+	margin-right: 6.53vw;
+}
+.content01 .select>div:nth-child(2) img{
+	width: 5.47vw;
+}
+
+/* 尾部 */
+.add{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	font-size: 3.73vw;
+	color: #fff;
+	padding: 4.27vw 0;
+	background-color: #FF2732;
+	text-align: center;
+}
